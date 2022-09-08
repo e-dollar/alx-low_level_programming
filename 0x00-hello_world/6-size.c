@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
- *
  *main - entry point
  *
  *description: display sizes of different types on the computer it is compiled 
- *on
  *
  *Return: always return 0 (success)
  */
