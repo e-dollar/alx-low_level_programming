@@ -3,7 +3,7 @@
 /**
  *main - entry point
  *
- *description: display sizes of different types on the computer it is compiled 
+ *description: display sizes of different types on the computer it is compiled
  *
  *Return: always return 0 (success)
  */
