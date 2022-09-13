@@ -7,7 +7,7 @@
  * Return: 1 (if letter)
  */
 
-int islower(int c)
+int _islower(int c)
 {
 if (c >='a' && c <= 'z')
 {
