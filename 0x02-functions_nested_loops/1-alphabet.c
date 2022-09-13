@@ -2,8 +2,8 @@
 
 /**
 *main - print alphabets
-*descrption: print all the letters of the alphabet in lower case
-*return: always return 0
+*Description: prints all letters of the alphabet in lower case
+*Return: always return 0
 */
 
 
@@ -11,7 +11,7 @@ void print_alphabet(void)
 {
 int i;
 i = 97;
-while (1 < 123)
+while (i < 123)
 {
 _putchar(i);
 }
