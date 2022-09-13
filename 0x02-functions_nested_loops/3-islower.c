@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * _isalpha - checks for alphabetic character
+ * _islower - checks for lowercase
  * @c: c is an ascii character
  *
- * Return: 1 (if letter)
+ * Return: 1 if lowercase
  */
 
 int _islower(int c)
 {
-if (c >='a' && c <= 'z')
+if (c >= 'a' && c <= 'z')
 {
 return (1);
 }
