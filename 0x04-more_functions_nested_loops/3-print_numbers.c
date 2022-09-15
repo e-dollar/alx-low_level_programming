@@ -12,12 +12,10 @@
 
 void print_numbers(void)
 {
-int i;
-i = 48;
-while (i < 58 )
+int c;
+for (c = '0'; c <= '9'; c++)
 {
-_putchar(i);
-_putchar('\n');
+_putchar(c);
 }
-i++;
+_putchar('\n')
 }
