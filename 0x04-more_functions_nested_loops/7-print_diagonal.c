@@ -22,7 +22,7 @@ _putchar(' ');
 }
 _putchar('\\');
 _putchar('\n');
-lines++
+lines++;
 }
 }
 else
