@@ -13,7 +13,7 @@ i = 48;
 while (i < 58)
 {
 _putchar(i);
-_putchar(20);
 }
+_putchar('\n');
 i++;
 }
