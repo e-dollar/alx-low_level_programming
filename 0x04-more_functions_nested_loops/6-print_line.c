@@ -19,5 +19,5 @@ while (n > line)
 _putchar('_');
 line++;
 }
-putchar('\n');
+_putchar('\n');
 }
