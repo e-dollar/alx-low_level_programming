@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 
 /**
  * print_line - Draws a straight line using the character _.
@@ -14,7 +14,7 @@ void print_line(int n)
 {
 int line;
 line = 0;
-while (line < n)
+while (n > line)
 {
 _putchar('_');
 line++;
