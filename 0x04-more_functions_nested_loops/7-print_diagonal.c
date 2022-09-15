@@ -16,13 +16,13 @@ if (n > 0)
 {
 while (lines < n)
 {
-for (spaces = 0; spaces < line; spaces++)
+for (spaces = 0; spaces < lines; spaces++)
 {
 _putchar(' ');
 }
 _putchar('\\');
 _putchar('\n');
-line++
+lines++
 }
 }
 else
