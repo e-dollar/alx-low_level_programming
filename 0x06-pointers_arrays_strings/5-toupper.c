@@ -7,7 +7,7 @@
  * Return: string array
  */
 
-char *string_toupper(char *str)
+char *string_toupper(char *)
 {
 int i;
 for (i = 0; s[i] != '\0'; i++)
