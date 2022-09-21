@@ -13,8 +13,7 @@ int i;
 for (i = 0; str[i] != '\0'; i++)
 {
 if (i >= 'a' && i <= 'z')
-{
 str[i] = str[i] - 32;
 }
-}
+return (str);
 }
