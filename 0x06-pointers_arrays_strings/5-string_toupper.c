@@ -9,13 +9,15 @@
  * Return: A pointer to the changed string.
  */
 
+
 char *string_toupper(char *str)
 {
-int i;
-for (i = 0; str[i] != '\0'; i++)
+int index = 0;
+while (str[index])
 {
-if (i >= 'a' && i <= 'z')
-str[i] = str[i] - 32;
+if (str[index] >= 'a' && str[index] <= 'z')
+str[index] -= 32;
+index++;
 }
 return (str);
 }
