@@ -42,5 +42,5 @@ break;
 }
 indx1++;
 }
-return (str);
+return (s);
 }
