@@ -7,8 +7,8 @@
 
 char *leet(char *s)
 {
-int i = 0;
-while (s[i] != '\0')
+int i;
+for (i = 0; s[i] != '\0'; i++)
 {
 if (s[i] == 'a' || s[i] == 'A')
 s[i] = '4';
@@ -21,6 +21,5 @@ s[i] = '7';
 if (s[i] == 'l' || s[i] == 'L')
 s[i] = '1';
 }
-i++;
 return (s);
 }
