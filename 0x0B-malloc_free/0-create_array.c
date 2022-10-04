@@ -25,7 +25,7 @@ char *create_array(unsigned int size, char c)
 
 
 
-	arr = (char*) malloc(size * sizeof(char));
+	arr = (char *) malloc(size * sizeof(char));
 
 	if (arr == NULL)
 
@@ -44,19 +44,11 @@ char *create_array(unsigned int size, char c)
 			*(arr + i) = c;
 
 		}
-
-
-
 		return (arr);
-
 	}
-
 	else
-
 	{
-
 		return (NULL);
-
 	}
 
 }
